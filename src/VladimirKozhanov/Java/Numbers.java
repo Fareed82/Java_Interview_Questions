@@ -17,6 +17,7 @@ public class Numbers {
 
     }
 
+    //Well ill update it later. Maybe.
 
     public static void divide(int num1, int num2) {
         int count = 0;
@@ -42,7 +43,5 @@ public class Numbers {
     public static boolean isPostiveResult(int num1, int num2){
         return num1 > 0 && num2 > 0 || num1 < 0 && num2 < 0;
     }
-
-
 
 }
