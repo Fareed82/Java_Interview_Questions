@@ -14,6 +14,7 @@ public class Odd_Even {
         identify(number);
 
 
+        input.close();
     }
 
     public static void identify(int number){
