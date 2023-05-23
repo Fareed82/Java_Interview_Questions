@@ -4,7 +4,7 @@ public class FINRA {
 
     public static void main(String[] args) {
 
-        System.out.println("The following will be for numbers from 1 - 30");
+        System.out.println("The following method will be for numbers from 1 - 30");
         System.out.println();
 
         Finra();

@@ -17,6 +17,10 @@ public class Divide_Without_Operator {
 
         System.out.println("The quotient is " + divide(number1, number2));
 
+
+
+
+        input.close();
     }
 
     public static double divide(double nominator, double dominator){
