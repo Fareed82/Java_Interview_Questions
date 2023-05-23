@@ -18,20 +18,18 @@ public class Divide_Without_Operator {
         System.out.println("The quotient is " + divide(number1, number2));
 
 
-
-
         input.close();
     }
 
-    public static double divide(double nominator, double dominator){
+    public static double divide(double nominator, double dominator) {
 
-        if (dominator == 0){
+        if (dominator == 0) {
             System.err.println("Can not divide by 0");
             System.exit(1);
         }
 
         double sign = 1;
-        if (nominator * dominator < 0){
+        if (nominator * dominator < 0) {
             sign = -1;
         }
 
@@ -40,7 +38,7 @@ public class Divide_Without_Operator {
 
         double quotient = 0;
 
-        while (nominator >= dominator){
+        while (nominator >= dominator) {
             nominator = nominator - dominator;
             quotient++;
         }
