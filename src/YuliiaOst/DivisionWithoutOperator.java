@@ -1,5 +1,6 @@
 package YuliiaOst;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class DivisionWithoutOperator {
@@ -54,3 +55,7 @@ public class DivisionWithoutOperator {
         input.close();
     }
 }
+
+/*
+Write a method that can divide two numbers without using division operator
+ */
