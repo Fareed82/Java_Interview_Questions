@@ -7,13 +7,13 @@ public class DivideWithoutOperator {
         if (dividend == 0) {
             return 0;
         } else if (divisor == 0) {
-            System.out.println("Cannot divide by 0, check Math rules durashka");
+            System.out.println("Cannot divide by 0, check Math rules please");
             System.exit(1);
         }
 
 
             int x = Math.abs(dividend); // positive num
-            int y = Math.abs(divisor);
+            int y = Math.abs(divisor); // positive num
             int sign = 1;
 
             int count = 0;
