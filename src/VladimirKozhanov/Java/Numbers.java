@@ -27,7 +27,7 @@ public class Numbers {
                 num2 *= -1;
             }
         }
-        while (num1 != 0) {
+        while (num1 >= num2) {
             num1 -= num2;
             count++;
         }
