@@ -2,7 +2,7 @@ package YuliiaOst;
 
 import java.util.Scanner;
 
-public class divisionWithoutOperator2 {
+public class DivisionWithoutOperator2 {
     public static void divisionWithoutOperatorWithRemainder(int dividend, int divisor) {
 
         if (divisor == 0) {
