@@ -1,4 +1,4 @@
-package EgeneKorin;
+package EugeneKorin;
 
 public class odd_or_even {
     public static void main(String[] args) {
