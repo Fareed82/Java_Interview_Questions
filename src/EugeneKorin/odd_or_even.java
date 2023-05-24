@@ -2,7 +2,7 @@ package EugeneKorin;
 
 public class odd_or_even {
     public static void main(String[] args) {
-        identify(101);                           // read ours method
+        identify(31);                           // read ours method
     }
 
     public static void identify(int number){            // create method
