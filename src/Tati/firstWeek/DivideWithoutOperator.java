@@ -1,4 +1,4 @@
-package Tati;
+package Tati.firstWeek;
 
 public class DivideWithoutOperator {
 
