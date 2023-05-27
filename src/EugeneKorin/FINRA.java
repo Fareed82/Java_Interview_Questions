@@ -2,6 +2,7 @@ package EugeneKorin;
 
 public class FINRA {
     public static void main(String[] args) {
+
         String result = "";
         for (int i = 1; i < 31; i++) {                 // for loop .start from # 1 and stop at 30 with one step increment
             if(i% 5 == 0 && i %3 ==0 ) {               // first if check if number multiple of 3 and 5 at same time
