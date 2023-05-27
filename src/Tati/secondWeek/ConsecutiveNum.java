@@ -3,34 +3,45 @@ package Tati.secondWeek;
 public class ConsecutiveNum {
 
     public static void consecutive(int num) {
-        String result = "";
+        //String result = "";
         for (int i = 1; i <= num; i++) {
             if (i % 2 == 0 && i % 3 == 0 && i % 5 == 0) {
-                System.out.println();
-                result += "CodilityTestCoders";
+
+                System.out.println("CodilityTestCoders");
             }
             else if (i % 2 == 0 && i % 3 == 0){
-                System.out.println();
-                result += "CodilityTest";
+
+                System.out.println("CodilityTest");
+            }
+            else if (i % 3 == 0 && i % 5 == 0){
+
+                System.out.println("TestCoders");
+            }
+            else if (i % 2 == 0 && i % 5 == 0){
+
+                System.out.println("CodilityCoders");
             }
             else if (i % 2 == 0){
-                System.out.println();
-                result += "Codility";
+
+                System.out.println("Codility");
             }
             else if (i % 3 == 0){
-                System.out.println();
-                result += "Test";
+
+                System.out.println("Test");
             }
             else if (i % 5 == 0){
-                System.out.println();
-                result += "Coders";
+
+                System.out.println("Coders");
             }
             else{
-                System.out.println();
-                result += i;
+                System.out.println(i);
             }
         }
-        System.out.println(result);
+        //System.out.println(result);
+    }
+
+    public static void main(String[] args) {
+        consecutive(24);
     }
 }
 /*
