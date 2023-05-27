@@ -1,4 +1,4 @@
-package VladimirKozhanov.Java;
+package VladimirKozhanov.Java.week1;
 
 import java.util.Scanner;
 

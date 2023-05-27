@@ -1,4 +1,4 @@
-package VladimirKozhanov.Java;
+package VladimirKozhanov.Java.week1;
 
 public class FinRa {
     public static void main(String[] args) {
