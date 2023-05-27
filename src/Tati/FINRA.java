@@ -18,6 +18,7 @@ public class FINRA {
 
         }
         System.out.println(result);
+        System.out.println(1%5);
     }
 
     public static void main(String[] args) {
