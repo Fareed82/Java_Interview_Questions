@@ -18,9 +18,9 @@ public class DivisibleBy {
                 divBy5 += i+" ";
             }
         }
-        System.out.println("Divisible By 15 " + divBy15);
-        System.out.println("Divisible By 5 " + divBy5);
-        System.out.println("Divisible By 3 " + divBy3);
+        System.out.println("Divisible By 15: " + divBy15);
+        System.out.println("Divisible By 5: " + divBy5);
+        System.out.println("Divisible By 3: " + divBy3);
 
 
     }
