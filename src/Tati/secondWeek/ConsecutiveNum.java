@@ -5,7 +5,7 @@ public class ConsecutiveNum {
     public static void consecutive(int num) {
 
         if (num <= 0) {
-            System.err.println("The number can only be positive");
+            System.out.println("The number can only be positive");
             System.out.println("Please call the method one more time with a positive argument");
         } else {
 
@@ -40,7 +40,7 @@ public class ConsecutiveNum {
         }
     }
     public static void main(String[] args) {
-        consecutive(24);
+        consecutive(-7);
     }
 }
 /*
