@@ -1,5 +1,7 @@
 package YuliiaOst;
 
+import java.util.Scanner;
+
 public class SwapNumbers {
 
     public static void swap(int a, int b) {
@@ -27,7 +29,16 @@ public class SwapNumbers {
 
     public static void main(String[] args) {
 
-        swap(5, 10);
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter two integer numbers. Enter first number:");
+        int a = input.nextInt();
+        System.out.println("Enter second number:");
+        int b = input.nextInt();
+
+        swap(a, b);
+
+        input.close();
 
     }
 
