@@ -50,3 +50,5 @@ public class Divide_Without_Operator {
     }
 
 }
+// actual number with remainder in same place
+// ex 100/9 = 11.1

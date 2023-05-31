@@ -27,3 +27,4 @@ public class Odd_Even {
 
 
 }
+// add what if value is 0
