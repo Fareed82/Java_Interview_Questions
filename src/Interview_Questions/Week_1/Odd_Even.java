@@ -1,4 +1,4 @@
-package Interview_Questions;
+package Interview_Questions.Week_1;
 
 import java.util.Scanner;
 
