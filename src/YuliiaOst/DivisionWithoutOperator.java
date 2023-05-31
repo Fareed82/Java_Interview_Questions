@@ -38,7 +38,12 @@ public class DivisionWithoutOperator {
             }
         }
 
-        return (intPartOfQuotient + decimalPartOfQuotient) * positiveOrNegative;
+        double result = (intPartOfQuotient + decimalPartOfQuotient) * positiveOrNegative;
+        // double roundedResult = Math.round(result * 100.0) / 100.0;
+        DecimalFormat decimalFormat = new DecimalFormat("#.##");
+        double roundedResult = Double.parseDouble(decimalFormat.format(result));
+
+        return roundedResult;
     }
 
     public static void main(String[] args) {
