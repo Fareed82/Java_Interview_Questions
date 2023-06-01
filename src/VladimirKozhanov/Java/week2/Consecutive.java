@@ -25,6 +25,7 @@ Consecutive(number);
                 result += "Coders";
             }
             if (i % 3 == 0) {
+                System.out.println("aqtata");
                 result += "Test";
             }
             if (i % 2 == 0) {
