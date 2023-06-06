@@ -1,5 +1,6 @@
 package YuliiaOst;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ReplaceConsecutiveDivisibleNumbers {
@@ -42,6 +43,18 @@ public class ReplaceConsecutiveDivisibleNumbers {
 
         System.out.println("Enter positive integer number:");
         int n = input.nextInt();
+
+
+        /*
+
+        System.out.println("Enter positive integer number:");
+        int n = new Scanner(System.in).nextInt();
+
+         */
+
+        if (n <= 0) {
+            throw new InputMismatchException("Number can not be negative or zero");
+        }
 
         replaceConsecutiveDivisibleNumbers(n);
 

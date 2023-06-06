@@ -10,9 +10,9 @@ public class DivisibleByNumbers {
         String divByFive = "";
         String divByThree = "";
 
-        for (int i = 1; i < 100; i++) {
+        for (int i = 1; i <= 200; i++) {
 
-            if (i % 15 == 0) {
+            if (i % 5 == 0 && i % 3 == 0) { // i % 15 == 0
                 divByFifteen += i + " ";
             } else if (i % 5 == 0) {
                 divByFive += i + " ";
