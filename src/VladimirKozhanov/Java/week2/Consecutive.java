@@ -16,9 +16,10 @@ public class Consecutive {
 
         for (int i = 1; i <= number; i++) {
             String result = "";
-            if( i % 5 != 0 && i % 3 != 0 && i % 2 != 0) {
-                result = "" + i;
-                
+            if (i % 5 != 0 && i % 3 != 0 && i % 2 != 0) {
+                System.out.println(i);
+
+                continue;
 
             }
 
