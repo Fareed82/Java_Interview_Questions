@@ -2,7 +2,7 @@ package VladimirKozhanov.Java.week3;
 
 import java.util.Scanner;
 
-public class ReverseNegative {
+public class test {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -18,18 +18,16 @@ public class ReverseNegative {
 
     public static int ReverseNumber(int number) {
         int reversed = 0;
+        int test = 0;
+        while(number != 0) {
 
-        while (number != 0) {
-            reversed *= 10;
-
-            while (number % 10 != 0) {
-                reversed += 1;
-                number -= 1;
-
-            }
-            number *= 0.1;
-
+            test = number % 10;
+               number = (int)((number - test)*0.1);
+               reversed = reversed * 10 + test;
         }
+
+
+
         return reversed;
     }
 }
