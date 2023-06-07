@@ -1,5 +1,7 @@
 package Tati.thirdWeek;
 
+import java.util.InputMismatchException;
+
 public class PrimeNum {
     /*
     1. Numbers -- Prime Number
@@ -9,8 +11,7 @@ prime or not
     public static boolean isPrime(int num) {
 
         if(num==0||num==1){
-            System.err.println("Please provide number greater than 1");
-            System.exit(1);
+            throw new InputMismatchException("Please provide number greater than 1");
         }
 
         boolean isPrime = true;
@@ -27,6 +28,6 @@ prime or not
     }
 
     public static void main(String[] args) {
-        System.out.println(isPrime(3078));
+        System.out.println(isPrime(1));
     }
 }
