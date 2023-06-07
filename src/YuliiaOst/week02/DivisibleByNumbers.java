@@ -1,4 +1,4 @@
-package YuliiaOst;
+package YuliiaOst.week02;
 
 public class DivisibleByNumbers {
 

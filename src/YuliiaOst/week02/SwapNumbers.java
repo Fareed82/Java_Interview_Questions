@@ -1,4 +1,4 @@
-package YuliiaOst;
+package YuliiaOst.week02;
 
 import java.util.Scanner;
 
