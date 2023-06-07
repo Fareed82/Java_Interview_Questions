@@ -1,6 +1,9 @@
 package Java_Interview_QuestionsWeek3;
 
 public class ReverseNegative {
+    public static void main(String[] args) {
+        System.out.println(reverseNegative(-69));
+    }
 
     public static int reverseNegative(int num) {
 
@@ -14,7 +17,4 @@ public class ReverseNegative {
         return revnum;
     }
 
-    public static void main(String[] args) {
-        System.out.println(reverseNegative(-69));
-    }
 }
