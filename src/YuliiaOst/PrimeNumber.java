@@ -19,21 +19,21 @@ public class PrimeNumber {
     1 and the number itself
      */
 
-    public static void primeNumber(int n) {
+    public static void primeNumber(int number) {
 
-        if (n <= 1) {
+        if (number < 1) {
             System.out.println("Number should be greater than 1");
             return;
         }
 
-        for (int i = 2; i <= n - 1; i++) {
-            if (n % i == 0) {
-                System.out.println(n + " is not prime, it's composite number");
+        for (int i = 2; i <= number - 1; i++) {
+            if (number % i == 0) {
+                System.out.println(number + " is not prime, it's composite number");
                 return;
             }
         }
 
-        System.out.println(n + " is prime number");
+        System.out.println(number + " is prime number");
 
         }
     }
