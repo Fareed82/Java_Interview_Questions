@@ -22,12 +22,12 @@ public class ReverseNegativeNumber2 {
         }
 
         int reversedNumber = 0;
-        int absNumber = Math.abs(number);
+        int positiveNumber = number*(-1); // int positiveNumber = Math.abs(number)
 
-        while (absNumber != 0) {
-            int lastDigit = absNumber % 10;
+        while (positiveNumber != 0) {
+            int lastDigit = positiveNumber % 10;
             reversedNumber = reversedNumber * 10 + lastDigit; // (reversedNumber * 10) shift the digits to the left
-            absNumber /= 10; // last digit is removed from the absolute number
+            positiveNumber /= 10; // remove last digit from the positive number
 
         }
 

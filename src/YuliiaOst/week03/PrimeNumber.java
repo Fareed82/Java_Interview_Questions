@@ -21,7 +21,7 @@ public class PrimeNumber {
 
     public static void primeNumber(int number) {
 
-        if (number < 1) {
+        if (number <= 1) {
             System.out.println("Number should be greater than 1");
             return;
         }
