@@ -1,5 +1,7 @@
 package YuliiaOst.week04;
 
+import java.util.Scanner;
+
 public class FrequencyOfCharacters {
 
     public static String  frequencyOfCharacters(String str) {
@@ -30,7 +32,14 @@ public class FrequencyOfCharacters {
     }
 
     public static void main(String[] args) {
-        System.out.println(frequencyOfCharacters("AAABBCDD"));
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter any word:");
+        String wordInput = input.next();
+
+        System.out.println(frequencyOfCharacters(wordInput));
+
+        input.close();
     }
 }
 /*
