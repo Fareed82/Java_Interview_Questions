@@ -1,11 +1,11 @@
-package NadiiaUrban.java_interview_questions;
+package NadiiaUrban.week1;
 
 public class NumbersOddOrEven {
 
 
     public static void main(String[] args) {
-
-        oddOrEven(7);
+//write the method which can identifies given number is even or odd
+        oddOrEven(-10);
 
     }
 
@@ -13,9 +13,9 @@ public class NumbersOddOrEven {
     public static void oddOrEven(int number){
 
         if (number % 2 == 0) {
-            System.out.println(number + " is an even number");
+            System.out.println("Even");
         } else {
-            System.out.println(number + " is an odd number");
+            System.out.println("Odd");
         }
 
 
