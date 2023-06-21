@@ -4,19 +4,14 @@ import java.util.Scanner;
 
 public class FrequencyOfCharacters {
 
-    public static String  frequencyOfCharacters(String str) {
+    public static String frequencyOfCharacters(String str) {
 
         String result = "";
 
-             // Iterate through each character in the string
+        // Iterate through each character in the string
         for (int i = 0; i <= str.length() - 1; i++) {
             char letter = str.charAt(i);
             int frequencyOfChars = 0;
-
-            // Skip if the character already contained in result
-            if (result.toString().contains(letter+"")) {
-                continue;
-            }
 
             // Count the frequency of the character
             for (int j = i; j <= str.length() - 1; j++) {
@@ -24,6 +19,21 @@ public class FrequencyOfCharacters {
                     frequencyOfChars++;
                 }
             }
+
+            // Check if the character is already present in the result (and it's not frequency)
+            boolean isAlreadyAdded = false;
+            for (int k = 0; k <= result.length() - 1; k += 2) { // we check only 1, 3, 5, 7... characters - it's letters, and don't check 2, 4, 6... letters - it's frequency
+                if (result.charAt(k) == letter) {
+                    isAlreadyAdded = true;
+                    break;
+                }
+            }
+
+            // skip if the character already contained in result
+            if (isAlreadyAdded) {
+                continue;
+            }
+
             // Add the character and frequency to result
             result += letter + "" + frequencyOfChars;
         }
