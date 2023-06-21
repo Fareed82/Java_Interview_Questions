@@ -14,6 +14,8 @@ public class Reverse_Negative_Number {
         System.out.println("82 = " + reverseNegativeNumber(82));
         System.out.println("1 = " + reverseNegativeNumber(1));
         System.out.println("01 = " + reverseNegativeNumber(01));
+        System.out.println("10 = " + reverseNegativeNumber(-10));
+        System.out.println("100 = " + reverseNegativeNumber(-100));
 
 
     }

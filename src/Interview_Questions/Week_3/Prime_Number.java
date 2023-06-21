@@ -11,6 +11,7 @@ public class Prime_Number {
         System.out.println("6: " + isPrime(6));
         System.out.println("7: " + isPrime(7));
         System.out.println("8: " + isPrime(8));
+        System.out.println("13: " + isPrime(13));
 
     }
 
