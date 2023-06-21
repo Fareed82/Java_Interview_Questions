@@ -14,7 +14,7 @@ public class FrequencyOfCharacters {
             int frequencyOfChars = 0;
 
             // Count the frequency of the character
-            for (int j = i; j <= str.length() - 1; j++) {
+            for (int j = 0; j <= str.length() - 1; j++) {
                 if (letter == str.charAt(j)) {
                     frequencyOfChars++;
                 }
@@ -44,7 +44,7 @@ public class FrequencyOfCharacters {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter any word:");
+        System.out.println("Enter any word or sentence:");
         String wordInput = input.next();
 
         System.out.println(frequencyOfCharacters(wordInput));
