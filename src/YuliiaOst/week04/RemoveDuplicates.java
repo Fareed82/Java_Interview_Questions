@@ -17,9 +17,7 @@ public class RemoveDuplicates {
         for (int i = 0; i <= str.length() - 1; i++) {
             char letter = str.charAt(i);
 
-            if (result.contains(letter + "")) {
-                continue;
-            } else {
+            if (!result.contains(letter + "")) {
                 result += letter;
             }
         }
