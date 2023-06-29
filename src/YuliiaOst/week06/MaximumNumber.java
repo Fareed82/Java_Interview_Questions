@@ -13,7 +13,9 @@ public class MaximumNumber {
         int quantityOfNumbers = input.nextInt();
 
         int[] arrayOfNumbers = new int[quantityOfNumbers];
+
         System.out.println("Enter " + quantityOfNumbers + " integer numbers:");
+
         for (int i = 0; i < quantityOfNumbers; i++) {
             arrayOfNumbers[i] = input.nextInt();
         }
