@@ -1,5 +1,7 @@
 package Tati.week07;
 
+import java.util.Arrays;
+
 public class ArraySortDescending {
     /*
     3. Array - Sort Descending
@@ -7,4 +9,26 @@ public class ArraySortDescending {
   Ex: int[] arr = {10,20,7, 8, 90};
   arr = Sort(arr); ==> {90, 20, 10, 8, 7};
      */
+    public static int[] sortDescending(int[] arr) {
+
+        for (int i = 0; i < arr.length; i++) {
+
+            for (int j = i + 1; j < arr.length; j++) {
+
+                int tmp = 0;
+
+                if (arr[i] < arr[j]) {
+                    tmp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = tmp;
+                }
+            }
+        }
+        return arr;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {3, 4, 1, 3, 8, 6, -1, 5, 1, 2, 6};
+        System.out.println(Arrays.toString(sortDescending(arr)));
+    }
 }
