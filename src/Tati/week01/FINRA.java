@@ -1,4 +1,4 @@
-package Tati.firstWeek;
+package Tati.week01;
 
 public class FINRA {
     public static void Finra() {

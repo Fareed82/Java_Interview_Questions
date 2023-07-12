@@ -1,4 +1,4 @@
-package Tati.fifthWeek;
+package Tati.week05;
 
 public class Reverse {
     public static String reverse(String str){

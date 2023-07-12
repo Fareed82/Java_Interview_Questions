@@ -1,4 +1,4 @@
-package Tati.secondWeek;
+package Tati.week02;
 
 public class SwapNumber {
 

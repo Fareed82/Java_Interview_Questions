@@ -1,4 +1,4 @@
-package Tati.thirdWeek;
+package Tati.week03;
 
 import java.util.InputMismatchException;
 

@@ -1,4 +1,4 @@
-package Tati.fourthWeek;
+package Tati.week04;
 
 public class FrequencyCh {
     public static String frequency(String str){

@@ -1,4 +1,4 @@
-package Tati.fifthWeek;
+package Tati.week05;
 
 public class FindUnique {
     public static String uniqueCharacters(String str){

@@ -1,4 +1,4 @@
-package Tati.fourthWeek;
+package Tati.week04;
 
 public class SameLetters {
     public static boolean same(String str1, String str2) {
