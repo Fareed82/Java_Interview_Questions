@@ -15,7 +15,7 @@ The function can return any such array. For example, given N = 4, the function c
 
     public static int[] uniqueIntegers(int n) {
 
-        if (n > 100 || n < 1) {
+        if (n > 10 || n < 1) {
             throw new InputMismatchException("Number cannot be less than 1 or more than 100");
         }
 
@@ -25,23 +25,27 @@ The function can return any such array. For example, given N = 4, the function c
 
         int sumWithoutLast = 0;
 
-        for (int i = 0; i < n - 1; i++) {
-            arr[i] = rand.nextInt(100 + 100) - 100;
-            sumWithoutLast += arr[i];
 
-        }
+            for (int i = 0; i < n-1; i++) {
 
-        do {
+                arr[i] = rand.nextInt(10 + 10) - 10;
+
+                sumWithoutLast += arr[i];
+
+            }
+
+       do {
             arr[n - 1] = rand.nextInt(100 + 100) - 100;
         }
-        while ((sumWithoutLast + arr[n - 1] )!= 0);
+        while ((sumWithoutLast + arr[n - 1] )!= 0 );
+
 
 
         return arr;
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(uniqueIntegers(7)));
+        System.out.println(Arrays.toString(uniqueIntegers(8)));
 
     }
 }
